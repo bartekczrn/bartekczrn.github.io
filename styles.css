@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+
+    scroll-snap-type: y proximity;
+    scroll-behavior:smooth;
+}
+
+body {
+    background-color: var(--pr-color);
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 4em 5em 5em;
+    color: var(--sc-color);
+}
+
+.headerLeft {
+    /* float: left; */
+    border-bottom: 2px solid var(--sc-color);
+    width: 45%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    letter-spacing: 0.1em;
+
+    color: var(--sc-color);
+}
+
+.headerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+    border-bottom: 2px solid var(--sc-color);
+    width: 20%;
+    float: right;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+
+    letter-spacing: 0.1em;
+
+    color: var(--sc-color);
+}
+
+.headerGit {
+    padding-right: 2em;
+}
+
+/* MAIN ARTICLE */
+
+.mainArticle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.15em;
+    color: white;
+
+    margin: 5em 2em 2em; 
+    /* te same marginy co wyzej? */
+
+    padding-bottom: 4.5em;
+    scroll-snap-align: end;
+}
+
+/* SECTION CAREER */
+
+.sectionCareer {
+    padding-bottom: 13em;
+
+    background-color: var(--sc-color);
+
+    scroll-snap-align: center;
+}
+
+.sectionCareerHeader {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-left: 0.2em;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: var(--pr-color);
+}
+
+.articleCareer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sectionCareerColumn {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    text-align: center;
+    align-items: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: var(--pr-color);
+}
+
+.sectionCircle {
+    box-sizing: border-box;
+    margin-bottom: 3em;
+
+    position:relative;
+    width: 250px;
+    height: 250px;
+
+
+    border: 3px solid #254B45;
+    border-radius: 50%;
+}
+
+/* BOTTOM ARTICLE */
+
+.bottomArticle {
+    margin: 6em 2em 6em;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+    
+}
+
+/* FOOTER */
+
+footer {
+    margin-bottom: 2em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: var(--sc-color);
+
+    scroll-snap-align: center;
+}

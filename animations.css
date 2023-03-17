@@ -1,0 +1,32 @@
+.mainArticle {
+    transition: 2s;
+}
+
+.mainArticle:hover {
+    text-shadow: 20px 20px 20px;
+}
+
+
+
+.sectionCareerColumn {
+    transition: 2s;
+}
+
+.sectionCareerColumn:hover{
+    filter: drop-shadow(25px 15px 5px var(--pr-color));
+}
+
+
+.bottomArticle {
+    transition: 2s;
+}
+
+.bottomArticle:hover { 
+    text-shadow: -20px 20px 20px;
+}   
+
+@media only screen and (max-width: 840px) {
+    .bottomArticle:hover { 
+        text-shadow: 20px 20px 20px;
+    }   
+}

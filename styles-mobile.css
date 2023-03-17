@@ -1,0 +1,98 @@
+@media only screen and (max-width: 840px) {
+
+    * {
+        scroll-snap-type: none;
+    }
+
+    header{
+        flex-direction: column;
+        margin: 0em;
+        justify-content: flex-start;
+        
+        background-color: var(--sc-color);
+        color: var(--pr-color);
+    }
+
+
+    .headerLeft {
+        /* float: left; */
+        border-bottom: 2px solid var(--sc-color);
+        margin-bottom: 1.8em;
+        width: 100%;
+        text-align: center;
+    
+        font-size: 15px;
+        line-height: 29px;
+    
+        letter-spacing: 0.1em;
+    
+        color: var(--pr-color);
+        border: none;
+    }
+    
+    .headerRight {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        width: 100%;
+        margin-bottom: 0.5em;
+        padding-bottom: 1.5em;
+        color: var(--pr-color);
+    }
+    
+    .headerGit {
+        padding-right: 2em;
+    }
+
+
+
+
+
+    .mainArticle {
+        font-size: 32px;
+        line-height: 65px;
+        letter-spacing: 0.10em;
+    
+        margin: 2em; 
+        padding-bottom: 4.5em;
+        padding-top: 3.5em;
+        text-align: center;
+    }
+
+    .sectionCareer {
+        padding: 0em;
+    }
+
+    .sectionCareerColumn {
+        padding-bottom: 6.5em;
+    }
+    
+    .sectionCircle {
+        margin-bottom: 2em;
+    }
+
+    .articleCareer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottomArticle {
+        font-size: 32px;
+        line-height: 65px;
+        letter-spacing: 0.10em;
+    
+        margin: 2em; 
+        margin-top: 7em;
+        padding-bottom: 5em;
+        text-align: center;
+        
+    }
+
+    footer {
+        font-size: 15px;
+
+    }
+
+}
